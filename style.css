@@ -1,0 +1,244 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* nav{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    z-index: 999;
+} */
+/* /* .ul{
+    float: right;
+/* } */
+/* .ul li{
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 17px;
+    border-radius: 40px;
+}
+.ul li:hover{
+    background-color: white;
+}
+.ul li a:hover{
+    color: black;
+} */
+/* .ul li a{
+    text-decoration: none;
+    color: inherit;
+} */ */
+/* .logo{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: -5px;
+} */
+.banner{
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    animation-name: banner;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+@keyframes banner{
+    0% {
+        background-image: url('15.jpg');
+    }
+    50% {
+        background-image: url('23.jpg');
+    }
+    100% {
+        background-image: url('22.jpg');
+    }
+}
+/* .button:hover{
+    color: white; 
+    background-color: black;
+} */
+.content{
+    position: absolute;
+    top: 40%;
+    color: white;
+   text-align: center;
+}
+/* .btns{
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    color: black;
+}
+.btns:hover{
+    color: white;
+    background-color: black;
+} */
+ .form-container{
+background-color: rgb(149, 224, 36);
+padding: 20px;
+border-radius: 5px;
+width: 100%;
+ }
+ h2{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+ }
+ label{
+    display: block;
+    margin-bottom: 5px;
+ }
+ input[type="text"],
+ input[type="email"],
+ textarea{
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+ }
+ /* .buttonss {
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+    background-color: #3cd5ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} */
+
+/* .buttonss:hover {
+    background-color: #00a0cd;
+}  */
+.form-container{
+    background-color: rgb(175, 255, 56);
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+     }
+     h2{
+        margin-top: 0px;
+        margin-bottom: 15px;
+        font-size: 24px;
+        color: #333;
+        text-align: center;
+     }
+     label{
+        display: block;
+        margin-bottom: 5px;
+     }
+     input[type="text"],
+     input[type="email"],
+     textarea{
+        width: 100%;
+        padding: 6px;
+        margin-bottom: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+     }
+     /* .buttonss {
+        width: 50%;
+        margin-left: 25%;
+        padding: 10px;
+        background-color: #3cd5ff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+}
+    
+    .buttonss:hover {
+        background-color: #00a0cd;
+    } */
+.icon{
+    float: right;
+    font-size: 35px;
+    padding: 25px;
+    display: none;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+.iconss{
+    display: flex;
+    justify-content: center;
+}
+.social{
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: white;
+}
+.social:hover{
+background-color: white;
+color: black;
+}
+.linkings ul{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.li{
+    list-style: none;
+    color: white;
+}
+.li:hover{
+    color: rgb(170, 170, 170);  
+    text-decoration: underline;
+}
+.li a{
+    text-decoration: none;
+    color: inherit;
+}
+.copyright{
+    color: white;
+    text-align: center;
+}
+.copyright:hover{
+    color: rgb(170, 170, 170);  
+
+}
+.imgs{
+    background-image: url('6.jpg');
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.formsss{
+    background-image: url('15.jpg');
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* @media only screen and (max-width: 630px){
+    .icon{
+        display: block;
+    }
+   nav ul li a{
+        display: none;
+    }
+} */
