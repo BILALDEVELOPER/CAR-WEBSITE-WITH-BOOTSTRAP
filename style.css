@@ -9,40 +9,7 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
 }
-/* nav{
-    width: 100%;
-    height: 90px;
-    position: fixed;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.7;
-    z-index: 999;
-} */
-/* /* .ul{
-    float: right;
-/* } */
-/* .ul li{
-    color: white;
-    display: inline-block;
-    padding: 15px;
-    margin-top: 17px;
-    border-radius: 40px;
-}
-.ul li:hover{
-    background-color: white;
-}
-.ul li a:hover{
-    color: black;
-} */
-/* .ul li a{
-    text-decoration: none;
-    color: inherit;
-} */ */
-/* .logo{
-    width: 150px;
-    height: 100px;
-    position: relative;
-    top: -5px;
-} */
+
 .banner{
     width: 100%;
     position: relative;
@@ -65,26 +32,16 @@ body {
         background-image: url('22.jpg');
     }
 }
-/* .button:hover{
-    color: white; 
-    background-color: black;
-} */
+
 .content{
     position: absolute;
-    top: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
    text-align: center;
 }
-/* .btns{
-    padding: 15px;
-    border: none;
-    border-radius: 30px;
-    color: black;
-}
-.btns:hover{
-    color: white;
-    background-color: black;
-} */
+
  .form-container{
 background-color: rgb(149, 224, 36);
 padding: 20px;
